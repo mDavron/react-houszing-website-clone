@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Reat class components
+<br>
+[Demo Link](http://react-houzing-website-clone.netlify.app)
 
 ## Available Scripts
 
