@@ -2,7 +2,7 @@
 
 This project was bootstrapped with Reat class components
 <br>
-[ 👉 Netlify Link: ](http://react-houzing-website-clone.netlify.app)
+[ 👉 Netlify Link](http://react-houzing-website-clone.netlify.app)
 
 ## Available Scripts
 
