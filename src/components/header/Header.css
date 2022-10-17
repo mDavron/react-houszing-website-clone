@@ -1,0 +1,107 @@
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 16px 0;
+  background: #0d263b;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header li {
+  margin: 25px;
+}
+a {
+  font-size: 16px;
+  color: #fff;
+}
+.btn_outline {
+  background-color: transparent;
+  border: 1px solid #696969;
+  letter-spacing: 1.2px;
+  color: #fff;
+  font-size: 14px;
+}
+.btn-mobile {
+  display: none;
+}
+.fa-solid {
+  font-size: 30px;
+  color: #fff;
+}
+
+.menu-active {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 75px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  row-gap: 15px;
+  width: 100%;
+  height: 100vh;
+  background: #0d263b;
+  color: #fff;
+}
+.menu-active li {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  padding: 15px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #424242;
+}
+.menu-active li .btn-mobile {
+  border: none;
+}
+/* ===== mobile icons start ==== */
+.mobile-icon{
+  display: none;
+}
+.mobile-icon .fa-solid{
+  color: #fff;
+  font-size: 18px;
+}
+/* ===== mobile icons end === */
+
+.menu-active li:hover {
+  background-color: #fff;
+}
+.menu-active li:hover a {
+  color: #000;
+}
+.menu-active li a {
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.icon-active {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .btn-mobile {
+    display: block;
+  }
+  .btn-desktop {
+    display: none;
+  }
+  .mobile-icon{
+    display: block;
+    padding-right: 10px;
+  }
+
+}

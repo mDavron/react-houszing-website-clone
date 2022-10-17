@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  position: relative;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #696969;
+  line-height: 20px;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+button {
+  padding: 10px 30px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+}
+button:hover {
+  opacity: 0.9;
+}
+.btn_danger {
+  background-color: red;
+}
+.center {
+  text-align: center;
+}
+/* ====== main styles end ====== */
+.top_info {
+  padding: 18px 0px;
+}
+.top_info-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0d263b;
+  margin-bottom: 5px;
+}
+.top_info-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* ====== .top_info styles end ====== */
+
+/*  Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  header {
+    position: fixed;
+    z-index: 10;
+  }
+  ul.menu {
+    display: none;
+  }
+  .icon-active {
+    display: block;
+  }
+  .input_box {
+    margin-top: 95px;
+    gap: 10px;
+    padding: 0px;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .input_box-input {
+    width: 78%;
+  }
+  .input_box-button {
+    width: 30%;
+  }
+  .input_box-button {
+    justify-content: start;
+    padding: 0 11px;
+    gap: 8px;
+    font-size: 15px;
+  }
+  .btn_outline {
+    margin-top: 10px;
+    align-self: start;
+    margin-left: 10px;
+  }
+  .top_info {
+    padding: 15px 0px;
+  }
+  .top_info-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .top_info-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* yangi */
+  .card {
+    width: 100%;
+  }
+  .card_imgbox {
+    width: 100%;
+  }
+
+  .row {
+    padding: 25px 0px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .input_box {
+    padding: 10px 0px;
+    margin-top: 95px;
+  }
+  .span-search {
+    display: none;
+  }
+  .input_box-button {
+    text-align: center;
+    justify-content: center;
+  }
+  .input_box-input {
+    width: 80%;
+    margin-right: 10px;
+  }
+  .input_box-button {
+    width: 20%;
+  }
+  .btn-desktop{
+    display: none;
+  }
+
+  .card_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .row {
+    padding: 5px 0px;
+  }
+  .card_imgbox {
+    width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  .span-search {
+    display: none;
+  }
+  .input_box-button {
+    text-align: center;
+    justify-content: center;
+  }
+  .input_box-input {
+    width: 80%;
+    margin-right: 8px;
+
+  }
+  .input_box-button {
+    width: 20%;
+  }
+}
